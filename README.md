@@ -9,7 +9,11 @@
 	* GIT (Source Repository/SCM)
 	* STS (IDE from Spring)
 
-- The source code is in the package com.rewardsnetwork
+
+- Source Code
+	* Java classes are in the package com.rewardsnetwork under src/main/java folder
+	* Test classes are in the package com.rewardsnetwork under src/test/java folder
+
 
 - Setup Steps
 	* Download/Clone the source from the repository @ https://github.com/nrmjbs/rewardsNetwork ; branch: master
@@ -26,8 +30,8 @@
 - SPECIAL Notes
 	* SOLID design patterns are used where required.
 		* Single responsibility is assigned to a class so that other classes and their functionality is not modified/impacted when the behavior in a class is modified.
-		*. Design patterns of the likes of Factory, Builder, Template, Singleton are in use
-		*. Singletons are stateless for reuse
+		* Design patterns of the likes of Factory, Builder, Template, Singleton are in use
+		* Singletons are stateless for reuse
 		* A class is open for extension using has-a relationship.
 		* Coding to interfaces is in practice through out the program.
 		* Parent reference can be substituted for a child (Liskov Substitution Principle)at any time without breaking the compilation unit.
@@ -37,7 +41,7 @@
 
 
 - Known Issues and Solutions
-	*. Components own the creation of dependencies, so replacing them with newer implemenation will require code change. Use of DI (dependency injection) framework should be able to resolve this.
+	* Components own the creation of dependencies, so replacing them with newer implemenation will require code change. Use of DI (dependency injection) framework should be able to resolve this.
 
 
 - Requirements
